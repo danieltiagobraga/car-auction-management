@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarAuctions.Data\CarAuctions.Infra.csproj" />
+    <ProjectReference Include="..\CarAuctions.Domain\CarAuctions.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\ValidationMessage.pt-PT.Designer.cs">
+      <DependentUpon>ValidationMessage.pt-PT.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resources\ValidationMessage.en-GB.Designer.cs">
+      <DependentUpon>ValidationMessage.en-GB.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\ValidationMessage.pt-PT.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>ValidationMessage.pt-PT.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ValidationMessage.en-GB.resx">
+      <LastGenOutput>ValidationMessage.en-GB.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
