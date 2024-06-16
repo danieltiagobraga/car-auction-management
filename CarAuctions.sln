@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctions.Domain", "CarAu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctions.Infra", "CarAuctions.Data\CarAuctions.Infra.csproj", "{13BD9066-FFEA-4B52-9A3C-79843D01ED05}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctions.Application", "CarAuctions.Services\CarAuctions.Application.csproj", "{FD56515A-0E69-4107-894C-C85E9F339B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctions.Application", "CarAuctions.Application\CarAuctions.Application.csproj", "{FD56515A-0E69-4107-894C-C85E9F339B13}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctions.UI", "CarAuctions.UI\CarAuctions.UI.csproj", "{998903A8-8EED-456B-924C-99816A0A3E75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctions.Services.Tests", "CarAuctions.Services.Tests\CarAuctions.Services.Tests.csproj", "{CFE5D5BF-558D-44E4-B23E-B67BD936F79A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctions.Application.Tests", "CarAuctions.Application.Tests\CarAuctions.Application.Tests.csproj", "{CFE5D5BF-558D-44E4-B23E-B67BD936F79A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
