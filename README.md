@@ -14,9 +14,9 @@ This project implements a simple Car Auction Management System using C#. The sys
 
 - **Object-Oriented Design**: Utilized principles of object-oriented design to create a flexible and maintainable codebase.
 - **Design Patterns**:
-  - **Vehicle Factory**: Encapsulate the vehicle creation logic and make it easier to extend in the future if new vehicle types are added.
-  - **Repository Pattern**: For data access abstraction.
-  - **Unit of Work Pattern**: To manage transactions.
+- **Vehicle Factory**: Encapsulate the vehicle creation logic and make it easier to extend in the future if new vehicle types are added.
+- **Repository Pattern**: For data access abstraction.
+- **Unit of Work Pattern**: To manage transactions.
 
 ## Project Structure
 The project tries to follow a Domain Driven Design architecture 
@@ -123,14 +123,13 @@ auctionManagerService.CloseAuction(Vehicle1Id);
 
 ## Error Handling
 The system handles various error scenarios, such as:
-
-**Adding a vehicle with a duplicate ID.**
-**Starting an auction for a vehicle that does not exist or is already in an auction.**
-**Placing a bid that is lower than the current highest bid or when the auction is not active.**
+- Adding a vehicle with a duplicate ID.
+- Starting an auction for a vehicle that does not exist or is already in an auction.
+- Placing a bid that is lower than the current highest bid or when the auction is not active.
 
 ## Multi-Language Support
 To add multi-language support, you can use resource files (.resx) to store validation messages in different languages and retrieve the appropriate messages based on the current culture.
 
 ## Future improvements
-**Using Nuget packages instead using project references**
-**Create a better separation of concerns for a microservice architeture**
+- Using Nuget packages instead using project references
+- Create a better separation of concerns for a microservice architeture
