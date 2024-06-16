@@ -21,41 +21,42 @@ This project implements a simple Car Auction Management System using C#. The sys
 ## Project Structure
 The project tries to follow a Domain Driven Design architecture 
 
-├── CarAuctions.Domain
-│ ├── Vehicles/
-│ │ ├── CargoVehicle.cs
-│ │ ├── Hatchback.cs
-│ │ ├── IVehicle.cs
-│ │ ├── PassengerVehicle.cs
-│ │ ├── Suv.cs
-│ │ ├── Truck.cs
-│ │ ├── Vehicle.cs
-│ ├── Auction.cs
-│ ├── Bid.cs
-│ ├── User.cs
-├── CarAuctions.Infra
-│ ├── Data/
-│ │ ├── DataContext.cs
-│ ├── Repositories/
-│ │ ├── IRepository.cs
-│ │ ├── Repository.cs
-│ │ ├── AuctionRepository.cs
-│ │ ├── BidRepository.cs
-│ │ ├── VehicleRepository.cs
-│ ├── Transactions/
-│ │ ├── UnitOfWork.cs
-├── CarAuctions.Services
-│ ├── Constants/
-│ │ ├── ValidationMessage.cs
-│ ├── Resources/
-│ │ ├── ValidationMessage.en-GB.resx
-│ │ ├── ValidationMessage.pt-PT.resx
-│ ├── AuctionManagerService.cs
-│ ├── VehicleFactory.cs
-├── CarAuctions.Services.Tests
-│ ├── AuctionManagerServiceTests.cs
-├── CarAuctions.UI
-│ ├── Program.cs
+├── CarAuctions.Domain  
+│ ├── Vehicles/  
+│ │ ├── CargoVehicle.cs  
+│ │ ├── Hatchback.cs  
+│ │ ├── IVehicle.cs  
+│ │ ├── PassengerVehicle.cs  
+│ │ ├── Suv.cs  
+│ │ ├── Truck.cs  
+│ │ ├── Vehicle.cs  
+│ ├── Auction.cs  
+│ ├── Bid.cs  
+│ ├── User.cs  
+├── CarAuctions.Infra  
+│ ├── Data/  
+│ │ ├── DataContext.cs  
+│ ├── Repositories/  
+│ │ ├── IRepository.cs  
+│ │ ├── Repository.cs  
+│ │ ├── AuctionRepository.cs  
+│ │ ├── BidRepository.cs  
+│ │ ├── VehicleRepository.cs  
+│ ├── Transactions/  
+│ │ ├── UnitOfWork.cs  
+├── CarAuctions.Services  
+│ ├── Constants/  
+│ │ ├── ValidationMessage.cs  
+│ ├── Resources/  
+│ │ ├── ValidationMessage.en-GB.resx  
+│ │ ├── ValidationMessage.pt-PT.resx  
+│ ├── AuctionManagerService.cs  
+│ ├── VehicleFactory.cs  
+├── CarAuctions.Services.Tests  
+│ ├── AuctionManagerServiceTests.cs  
+├── CarAuctions.UI  
+│ ├── Program.cs  
+
 
 
 
