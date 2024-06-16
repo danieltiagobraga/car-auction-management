@@ -21,41 +21,41 @@ This project implements a simple Car Auction Management System using C#. The sys
 ## Project Structure
 The project tries to follow a Domain Driven Design architecture 
 
-├── CarAuctions.Domain  
-│ ├── Vehicles/  
-│ │ ├── CargoVehicle.cs  
-│ │ ├── Hatchback.cs  
-│ │ ├── IVehicle.cs  
-│ │ ├── PassengerVehicle.cs  
-│ │ ├── Suv.cs  
-│ │ ├── Truck.cs  
-│ │ ├── Vehicle.cs  
-│ ├── Auction.cs  
-│ ├── Bid.cs  
-│ ├── User.cs  
-├── CarAuctions.Infra  
-│ ├── Data/  
-│ │ ├── DataContext.cs  
-│ ├── Repositories/  
-│ │ ├── IRepository.cs  
-│ │ ├── Repository.cs  
-│ │ ├── AuctionRepository.cs  
-│ │ ├── BidRepository.cs  
-│ │ ├── VehicleRepository.cs  
-│ ├── Transactions/  
-│ │ ├── UnitOfWork.cs  
-├── CarAuctions.Services  
-│ ├── Constants/  
-│ │ ├── ValidationMessage.cs  
-│ ├── Resources/  
-│ │ ├── ValidationMessage.en-GB.resx  
-│ │ ├── ValidationMessage.pt-PT.resx  
-│ ├── AuctionManagerService.cs  
-│ ├── VehicleFactory.cs  
-├── CarAuctions.Services.Tests  
-│ ├── AuctionManagerServiceTests.cs  
-├── CarAuctions.UI  
-│ ├── Program.cs  
+├── CarAuctions.Domain  <br>
+│ ├── Vehicles/  <br>
+│ │ ├── CargoVehicle.cs  <br>
+│ │ ├── Hatchback.cs  <br>
+│ │ ├── IVehicle.cs  <br>
+│ │ ├── PassengerVehicle.cs  <br>
+│ │ ├── Suv.cs  <br>
+│ │ ├── Truck.cs  <br>
+│ │ ├── Vehicle.cs  <br>
+│ ├── Auction.cs  <br>
+│ ├── Bid.cs  <br>
+│ ├── User.cs  <br>
+├── CarAuctions.Infra  <br>
+│ ├── Data/  <br>
+│ │ ├── DataContext.cs  <br>
+│ ├── Repositories/  <br>
+│ │ ├── IRepository.cs  <br>
+│ │ ├── Repository.cs  <br>
+│ │ ├── AuctionRepository.cs  <br>
+│ │ ├── BidRepository.cs  <br>
+│ │ ├── VehicleRepository.cs  <br>
+│ ├── Transactions/  <br>
+│ │ ├── UnitOfWork.cs  <br>
+├── CarAuctions.Services  <br>
+│ ├── Constants/  <br>
+│ │ ├── ValidationMessage.cs  <br>
+│ ├── Resources/  <br>
+│ │ ├── ValidationMessage.en-GB.resx  <br>
+│ │ ├── ValidationMessage.pt-PT.resx  <br>
+│ ├── AuctionManagerService.cs  <br>
+│ ├── VehicleFactory.cs  <br>
+├── CarAuctions.Services.Tests  <br>
+│ ├── AuctionManagerServiceTests.cs  <br>
+├── CarAuctions.UI  <br>
+│ ├── Program.cs  <br>
 
 
 
