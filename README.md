@@ -11,8 +11,7 @@ This project implements a simple Car Auction Management System using C#. The sys
 4. **Error Handling**: Comprehensive error handling for scenarios such as duplicate vehicle IDs, invalid bids, and more.
 
 ## Design Decisions
-
-- **Object-Oriented Design**: Utilized principles of object-oriented design to create a flexible and maintainable codebase.
+The project utilizes principles of object-oriented design to create a flexible and maintainable codebase.
 - **Design Patterns**:
 - **Vehicle Factory**: Encapsulate the vehicle creation logic and make it easier to extend in the future if new vehicle types are added.
 - **Repository Pattern**: For data access abstraction.
@@ -132,5 +131,7 @@ The system handles various error scenarios, such as:
 To add multi-language support, you can use resource files (.resx) to store validation messages in different languages and retrieve the appropriate messages based on the current culture.
 
 ## Future improvements
-- Using Nuget packages instead using project references
-- Create a better separation of concerns for a microservice architeture
+- Logging: Implement logging namely for AuctionManagerService.cs and Repository.cs
+- References: Use Nuget packages instead using project references
+- Scalability: The current implementation works for a basic scenario, but for handle a larger number of auctions and concurrent bids in a production system we should consider different approaches. For example, distributed databases, queuing mechanisms, cache, a microservice architeture, ...
+- UI Considerations: Explore web-based or mobile interfaces
